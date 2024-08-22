@@ -18,3 +18,4 @@ L’aggiunta dei comandi laterali e le indicazioni della velocità e della direz
 - Scrolling infinito uniforme
 - Simil-sprite per le animazioni del personaggio
 - Interfaccia dei controlli sia su tastiera fisica come lettere S, A oppure ↓ e D oppure ↑ sia come pulsanti dei comandi
+
