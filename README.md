@@ -3,7 +3,7 @@
 Sabrina Foschian
 
 ## Obiettivo
-Progettare un’applicazione Javascript che costruisca in un canvas uno scrolling infinito verticale in modo che l’informazione uscita dal canvas ricompaia in basso in maniera ciclica. Premendo il tasto “S” si cambia la direzione dello scrolling, con il tasto “P” aumentiamo la velocità di scrolling di 2px per frame e con il tasto “M“ diminuiamo la velocità di scrolling di 2px per frame.
+Progettare un’applicazione JavaScript che costruisca in un canvas uno scrolling infinito verticale in modo che l’informazione uscita dal canvas ricompaia in basso in maniera ciclica. Premendo il tasto “S” si cambia la direzione dello scrolling, con il tasto “P” aumentiamo la velocità di scrolling di 2px per frame e con il tasto “M“ diminuiamo la velocità di scrolling di 2px per frame.
 
 ### Panoramica del Progetto
 Il progetto è composto da un canvas di forma rettangolare, al cui suo interno compaiono i due elementi principali: lo sfondo e il personaggio che corre.
