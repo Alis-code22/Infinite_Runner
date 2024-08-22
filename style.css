@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
 
+body {
+  overflow-y: hidden; /* Prevents vertical scrollbars */
+}
+
 #canvas {
+  margin-top: 5px;
   border: 2px solid black;
 }
 
@@ -58,6 +63,7 @@
   box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
+  margin-bottom: 3px;
 }
 
 #button:hover {
@@ -84,15 +90,15 @@
   font-size: 13px;
 }
 
-#pole1 {
+#pole_top {
   height: 30px;
   width: 20%;
   background-color: #936639;
   margin: auto;
 }
 
-#pole2 {
-  height: 120px;
+#pole_bottom {
+  height: 140px;
   width: 20%;
   background-color: #936639;
   margin: auto;
