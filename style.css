@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+#canvas {
+  border: 2px solid black;
+}
+
+.hidden {
+  display: none;
+}
+
+#box {
+  margin-left: 20px;
+  padding: 20px;
+  background-color: #A4AC86;
+  border-radius: 10%;
+  padding-bottom: 45px;
+}
+
+#title {
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #333D29;
+  font-size: 40px;
+}
+
+#subtitle {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 200;
+  font-style: normal;
+  color: #414833;
+  font-size: 20px;
+}
+
+#instructions {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 200;
+  font-style: normal;
+  color: #656D4A;
+  font-size: 15px;
+  padding: 4px;
+}
+
+#button {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 200;
+  font-style: normal;
+  color: #656D4A;
+  font-size: 15px;
+
+  padding: 4px;
+  border: 2px solid #c2c5aa;
+  border-width: 10px;
+  border-style: outset;
+  background-color: #c2c5aa;
+  cursor: pointer;
+}
+
+#notes {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 200;
+  font-style: normal;
+  color: #656D4A;
+  font-size: 13px;
+}
+
+#pole1 {
+  height: 30px;
+  width: 20%;
+  background-color: #936639;
+  margin: auto;
+}
+
+#pole2 {
+  height: 120px;
+  width: 20%;
+  background-color: #936639;
+  margin: auto;
+}

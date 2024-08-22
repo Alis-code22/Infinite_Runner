@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Infinite Running</title>
+	<link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body onload="init()">
+
+	<img src="images/back.png" class="hidden" id="back_sprites">
+	<img src="images/front.png" class="hidden" id="front_sprites">
+	<img src="images/sfondo.png" class="hidden" id="background">
+
+	<table>
+		<tr>
+			<td><canvas id="canvas" width="556" height="692"></canvas></td>
+			<td>
+				<div id="pole1"> </div>
+				<div id="box">
+					<h1 id="title"> Infinte Runner </h1>
+					<h2 id="subtitle"> Controlli: </h2>
+					<p id="notes"> Sulla tastiera fisica </p>
+					<table>
+						<tr>
+							<td> <button id="button">S</button> </td>
+							<td id="instructions"> cambia direzione </td>
+						</tr>
+						<tr>
+							<td> <button id="button">P</button> </td>
+							<td id="instructions"> aumenta la velocità </td>
+						</tr>
+						<tr>
+							<td> <button id="button">M</button> </td>
+							<td id="instructions"> diminuisce la velocità </td>
+						</tr>
+					</table>
+				</div>
+				<div id="pole2"> </div>
+			</td>
+
+		</tr>
+
+	</table>
+
+
+
+
+	<script src="./script.js"></script>
+
+</body>
+
+</html>
