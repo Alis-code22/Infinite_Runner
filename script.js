@@ -56,8 +56,8 @@ function draw(offsetY) {
 
 	ctx.font = "1rem Verdana";
 	ctx.fillStyle = "white";
-	ctx.fillText( "Speed: " + speed, 10, 20 );
-	ctx.fillText( "Direction: " + (speedDir > 0 ? "up" : "down"), 10, 40 );
+	ctx.fillText("Speed: " + speed, 10, 20);
+	ctx.fillText("Direction: " + (speedDir > 0 ? "up" : "down"), 10, 40);
 }
 
 function move() {
@@ -75,20 +75,33 @@ function move() {
 	}
 }
 
+function direzione() {                       //S cambio direzione
+	speedDir = -speedDir;
+}
 
+function aumenta() {                         //A aumento velocità
+	speed += 2;
+}
+
+function diminuisci() {                      //D diminuzione velocità
+	speed -= 2;
+	if (speed < 0) {
+		speed = 0;
+	}
+}
 
 document.body.addEventListener('keyup', function (event) {
 	// console.log("keyup key %s", event.key);
 	var key = event.key.toLowerCase();
 
 
-	if (key == "s" ) {                                          //S cambio direzione
+	if (key == "s") {                                          //S cambio direzione
 		speedDir = -speedDir;
 	}
-	else if (key == "p" || key == "arrowup" ) {             //P aumento velocità
+	else if (key == "a" || key == "arrowup") {             //A aumento velocità
 		speed += 2;
 	}
-	else if (key == "m" || key == "arrowdown" ) {              //M diminuzione velocità
+	else if (key == "d" || key == "arrowdown") {              //D diminuzione velocità
 		speed -= 2;
 		if (speed < 0) {
 			speed = 0;
