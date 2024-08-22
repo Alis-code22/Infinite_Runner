@@ -48,11 +48,30 @@
   font-style: normal;
   color: #656D4A;
   font-size: 15px;
+  padding: 4px;
+  border-radius: 8px;
+  border-width: 10px;
+  border-style: outset;
+  border-color: #c2c5aa;
+  background-color: #c2c5aa;
+  cursor: pointer;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+}
 
+#button:hover {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 200;
+  font-style: normal;
+  color: #656D4A;
+  font-size: 15px;
+  border-style: inset;
+  border-width: 10px;
   padding: 4px;
   border: 2px solid #c2c5aa;
   border-width: 10px;
-  border-style: outset;
+  border-style: inset;
   background-color: #c2c5aa;
   cursor: pointer;
 }
